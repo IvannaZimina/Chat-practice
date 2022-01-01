@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <script src="/socket.io/socket.io.js"></script>
+
+</head>
+
+<body>
+
+  <div class="mainLookChat">
+
+    <div class="login">
+      <h3>Welcome to <%= title %></h3>
+
+      <div class="loginChat show">
+        <form methood="GET" name="loginChat">
+          <div class="inputName">
+            <input type="text" class="username" name="username" placeholder="Name yourself" require>
+            <button type="submit" class="btn waves-effect waves-light"><i class="material-icons">forward</i></button>
+          </div>
+        </form>
+      </div>
+
+      <h3 class="addingUsername"></h3>
+
+    </div>
+
+    <div class="boxChating show">
+      <div class="chatbox">
+
+        <div class="leftSideList">
+          <i class="medium material-icons">group</i>
+          <ol class="usersList"></ol>
+        </div>
+
+        <div class="chatField">
+          <div class="allMessages"></div>
+          <div class="typing">
+            <div class="addingMess"></div>
+          </div>
+
+          <form name="messageChat">
+            <div class="inputMessage">
+              <input type="text" name="message" class="messUs" placeholder="Enter your message here" require>
+              <button type="submit" class="btn waves-effect waves-light"><i class="material-icons">send</i></button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/javascripts/script.js"></script>
+</body>
+
+</html>

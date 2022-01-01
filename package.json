@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-2021-08-06-les24-practice-chat",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "server": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "clone": "^2.1.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "moment": "^2.29.1",
+    "morgan": "~1.9.1",
+    "nanoid": "^3.1.23",
+    "nodemon": "^2.0.12",
+    "socket.io": "^4.1.3"
+  }
+}

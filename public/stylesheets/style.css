@@ -1,0 +1,147 @@
+::before::after {
+  box-sizing: border-box;
+}
+
+.loginChat:not(.show), .boxChating:not(.show), .addingUsername:not(.show) {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.mainLookChat {
+  width: 1000px;
+  height: 700px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 1px soli grey;
+}
+.mainLookChat .login {
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.mainLookChat .login h3 {
+  color: #597481;
+  text-align: center;
+  margin: 20px 0;
+}
+.mainLookChat .login .inputName {
+  display: flex;
+  margin: 0 auto;
+  width: 350px;
+}
+.mainLookChat .login .inputName input {
+  width: 240px;
+  height: 50px;
+  border: 1px solid #c7c5c5;
+  border-radius: 10px;
+  margin: 0;
+  padding-left: 10px;
+}
+.mainLookChat .login .inputName button {
+  width: 80px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 0;
+  background-color: #b0bec5;
+}
+.mainLookChat .login .inputName button i {
+  margin: 0;
+  margin-top: 7px;
+  font-size: 40px;
+}
+.mainLookChat .chatbox {
+  display: flex;
+  height: 600px;
+  border: 1px solid #cacaca;
+  border-radius: 10px;
+}
+.mainLookChat .chatbox .leftSideList {
+  width: 25%;
+  background-color: #eceff1;
+  border-right: 1px solid #cacaca;
+  border-radius: 10px;
+  padding: 0 15px;
+}
+.mainLookChat .chatbox .leftSideList i {
+  color: #90a4ae;
+}
+.mainLookChat .chatbox .leftSideList .usersList {
+  list-style-type: none;
+  overflow-y: auto;
+  padding: 0;
+}
+.mainLookChat .chatbox .leftSideList .usersList li {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #607d8b;
+}
+.mainLookChat .chatbox .chatField {
+  width: 75%;
+}
+.mainLookChat .chatbox .chatField .allMessages {
+  height: 80%;
+  border-bottom: 1px solid rgba(202, 202, 202, 0.5);
+  padding: 15px;
+  overflow-y: auto;
+}
+.mainLookChat .chatbox .chatField .allMessages .userMess {
+  width: 80%;
+  border: 1px solid #cacaca;
+  background-color: #eceff1;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.mainLookChat .chatbox .chatField .allMessages .userMess .titleMess {
+  display: flex;
+  padding-left: 7px;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #607d8b;
+}
+.mainLookChat .chatbox .chatField .allMessages .userMess .titleMess .titleMessName {
+  margin-right: 10px;
+}
+.mainLookChat .chatbox .chatField .allMessages .userMess .messageText {
+  padding: 2px 7px;
+}
+.mainLookChat .chatbox .chatField .typing {
+  height: 30px;
+  margin: 5px 0 0 0;
+}
+.mainLookChat .chatbox .chatField .typing .addingMess {
+  line-height: 1em;
+}
+.mainLookChat .chatbox .chatField .typing .addingMess span {
+  padding: 0 15px;
+  color: #78909c;
+}
+.mainLookChat .chatbox .chatField .inputMessage {
+  height: 50px;
+  padding: 15px;
+  display: flex;
+  margin-top: 10px;
+}
+.mainLookChat .chatbox .chatField .inputMessage input {
+  height: 50px;
+  border: 1px solid #c7c5c5;
+  border-radius: 10px;
+  margin: 0;
+  padding-left: 10px;
+}
+.mainLookChat .chatbox .chatField .inputMessage button {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 0;
+  background-color: #b0bec5;
+}
+.mainLookChat .chatbox .chatField .inputMessage button i {
+  margin: 0;
+  font-size: 25px;
+  padding-top: 7px;
+}/*# sourceMappingURL=style.css.map */
