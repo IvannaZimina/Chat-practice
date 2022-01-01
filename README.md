@@ -1,16 +1,18 @@
 ## Task
 Create a basic chat app using socket.io.
 
-## Stack:
+## Stack
+
 ### Backend
 JavaScript, Node.js, Express.js, socket.io
 ### Frontend
 JavaScript, EJS, localStorage, Sass (SCSS), Bootstrap
 
-## Description:
+## Description
+
 ### Backend
-There was created basic Node.js app with Express.js using MVC.
-There was built REST API architecture using socket.io connection with the next ‘routers’:
+#### There was created basic Node.js app with Express.js using MVC.
+#### There was built REST API architecture using socket.io connection with the next ‘routers’:
 -	connection, login, joinChat, send mess, typing, disconnect
 	
 ### Frontend
