@@ -14,8 +14,8 @@ There was built REST API architecture using socket.io connection with the next â
 -	connection, login, joinChat, send mess, typing, disconnect
 	
 ### Frontend
-	There was created a web page with view of chat.
-	There were implemented the next functional options:
+There was created a web page with view of chat.
+There were implemented the next functional options:
 -	register the name of user to enter the chat;
 -	list of another users, who were joined the chat;
 -	the block with messages which contains: name: date, time, text of message;
