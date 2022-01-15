@@ -11,16 +11,15 @@ JavaScript, EJS, localStorage, Sass (SCSS), Bootstrap
 ## Description
 
 ### Backend
-#### There was created basic Node.js app with Express.js using MVC.
-#### There was built REST API architecture using socket.io connection with the next ‘routers’:
--	connection, login, joinChat, send mess, typing, disconnect
-	
+A basic Node.js app with Express.js was created using MVC.
+The REST API architecture was implemented using socket.io connection with the next ‘routers’:
+ connection, login, joinChat, send mess, typing, disconnect.
+
 ### Frontend
-There was created a web page with view of chat.
-There were implemented the next functional options:
+A single web page with view of chat was created. The following functional options were implemented:
 -	register the name of user to enter the chat;
--	list of another users, who were joined the chat;
--	the block with messages which contains: name: date, time, text of message;
+-	list of another users who were joined the chat;
+-	the block with messages which contains: name, date, time, text of message;
 -	inform message of typing;
 -	input form to add the message.
 
